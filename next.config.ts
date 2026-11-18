@@ -1,9 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const config: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
+  devIndicators: false,
   turbopack: {
     rules: {
       "*.css": {
@@ -12,6 +12,6 @@ const nextConfig: NextConfig = {
       },
     },
   },
-};
+}
 
-export default nextConfig;
+export default config

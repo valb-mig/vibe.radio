@@ -2,16 +2,22 @@
   "name": "vibe.radio",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync": "node scripts/sync/main.ts",
+    "sync:wiki": "node scripts/sync/main.ts wiki",
+    "sync:tube": "node scripts/sync/main.ts tube",
+    "test": "node --test \"src/**/*.test.ts\""
   },
   "dependencies": {
     "next": "16.4.6",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "4.3.3",

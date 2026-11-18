@@ -5,7 +5,7 @@ import type { State } from "@/core/radio"
 import { catalog } from "@/infra/catalog"
 import { radio } from "./wire"
 
-const idle: State = { on: false, level: 80, muted: false }
+const idle: State = { on: false, live: false, level: 80, muted: false }
 const none = () => () => {}
 const still = () => idle
 

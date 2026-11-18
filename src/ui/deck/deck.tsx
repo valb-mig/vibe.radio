@@ -8,6 +8,8 @@ import { useNow, useStation, useTuner } from "../radio/hooks"
 import { radio } from "../radio/wire"
 import { wheel } from "../wheel/store"
 
+const stall = 8000
+
 export function Deck() {
   const t = useTuner()
   const station = useStation()
@@ -15,6 +17,7 @@ export function Deck() {
   const slot = t.on ? t.slot : undefined
   const span = slot ? slot.end - slot.start : 0
   const pos = slot && now ? Math.min(1, Math.max(0, (now - slot.start) / span)) : 0
+  const stuck = Boolean(slot && !t.live && t.since && now - t.since > stall)
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 h-20 border-t border-white/10 bg-ink/80 backdrop-blur-xl">
@@ -29,26 +32,22 @@ export function Deck() {
           {slot && station ? (
             <>
               <p className="flex items-center gap-2 text-[11px] font-semibold tracking-widest text-(--tint) uppercase">
-                <Bars />
-                <span className="truncate">{station.name}</span>
+                <Bars live={t.live} />
+                <span className="truncate">{t.live ? station.name : `Tuning ${station.name}`}</span>
               </p>
               <p className="truncate font-medium">{slot.track.title}</p>
-              <p className="truncate text-sm text-haze">{slot.track.artist}</p>
+              <p className="truncate text-sm text-haze">
+                {stuck ? "YouTube hasn't started. Press play on the player." : slot.track.artist}
+              </p>
             </>
           ) : station && t.fault ? (
             <>
-              <p className="truncate font-medium">YouTube blocked {station.name}</p>
+              <p className="truncate font-medium">
+                YouTube blocked {station.name}
+                {t.code !== undefined && <span className="text-haze"> · error {t.code}</span>}
+              </p>
               <p className="truncate text-sm text-haze">
-                Sign in at{" "}
-                <a
-                  href="https://www.youtube.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-(--tint) underline underline-offset-2"
-                >
-                  youtube.com
-                </a>{" "}
-                in this browser, then tune again.
+                If the player asks you to sign in, do it there, then tune again.
               </p>
             </>
           ) : station ? (

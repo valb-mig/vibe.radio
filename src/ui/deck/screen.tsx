@@ -10,9 +10,9 @@ import { player } from "../radio/wire"
 
 export function Screen() {
   const [pick, setPick] = useState<boolean>()
-  const { on } = useTuner()
+  const { on, fault } = useTuner()
   const station = useStation()
-  const big = pick ?? on
+  const big = pick ?? (on || Boolean(fault))
 
   return (
     <div
@@ -42,7 +42,7 @@ export function Screen() {
             !big && "pointer-events-none",
           )}
         />
-        {!on && (
+        {!on && !fault && (
           <div className="absolute inset-0 grid place-items-center bg-night text-white/60">
             {station ? (
               <Badge station={station} className={cx("rounded-none text-xl", big ? "size-24 rounded-2xl" : "size-full")} />

@@ -41,7 +41,7 @@ export class YouTubePlayer implements Player {
   #yt?: Native
   #ready = false
   #pending?: (yt: Native) => void
-  #subs = new Map<Signal, Set<() => void>>()
+  #subs = new Map<Signal, Set<(code?: number) => void>>()
   #level = 80
   #gone = false
 
@@ -51,7 +51,7 @@ export class YouTubePlayer implements Player {
     if (this.#host) return
     this.#host = host
     const el = document.createElement("div")
-    host.append(el)
+    host.replaceChildren(el)
     boot().then((YT) => {
       if (this.#gone) return
       this.#yt = new YT.Player(el, {
@@ -78,7 +78,7 @@ export class YouTubePlayer implements Player {
             if (e.data === YT.PlayerState.ENDED) this.#emit("end")
             if (e.data === YT.PlayerState.PLAYING) this.#emit("play")
           },
-          onError: () => this.#emit("error"),
+          onError: (e: { data: number }) => this.#emit("error", e.data),
         },
       })
     })
@@ -108,7 +108,7 @@ export class YouTubePlayer implements Player {
     if (this.#ready) this.#yt!.setVolume(level)
   }
 
-  on(signal: Signal, fn: () => void) {
+  on(signal: Signal, fn: (code?: number) => void) {
     const set = this.#subs.get(signal) ?? new Set()
     set.add(fn)
     this.#subs.set(signal, set)
@@ -124,7 +124,7 @@ export class YouTubePlayer implements Player {
     else this.#pending = fn
   }
 
-  #emit(signal: Signal) {
-    for (const fn of this.#subs.get(signal) ?? []) fn()
+  #emit(signal: Signal, code?: number) {
+    for (const fn of this.#subs.get(signal) ?? []) fn(code)
   }
 }

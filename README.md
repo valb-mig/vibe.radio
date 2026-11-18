@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# vibe.radio
 
-## Getting Started
+Every Grand Theft Auto VI radio station, live in the browser. Stations run on the clock like the game: tune in and you land mid-song, at the same moment as everyone else. Music plays through the YouTube IFrame API.
 
-First, run the development server:
+Fan project, not affiliated with Rockstar Games or Take-Two Interactive. Station data and artwork come from [gta.wiki](https://gta.wiki).
+
+## Run
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Data
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`data/stations.json` and `public/art/` are generated and committed.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run sync          # wiki, then youtube
+npm run sync:wiki     # stations, tracklists and art from gta.wiki
+npm run sync:tube     # resolve tracks without a video on YouTube Music
+npm run sync -- --fresh   # re-download art and re-resolve every track
+```
 
-## Learn More
+Stations come from `scripts/sync/wiki/registry.ts`. A station with no tracks on the wiki is skipped until the wiki fills in.
 
-To learn more about Next.js, take a look at the following resources:
+To force a video for a track, add `data/pins.json`, keyed by track id:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```json
+{
+  "phil-collins-against-all-odds-take-a-look-at-me-now": { "video": "wuvtoyVi7vY", "secs": 211 },
+  "some-track-id": null
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`null` takes the track off air.
 
-## Deploy on Vercel
+## Layout
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/core     domain: stations, tracks, live clock, dial, Radio service, ports
+src/infra    adapters: JSON catalog, YouTube player, static noise, prefs
+src/ui       React components
+src/app      Next.js routes
+scripts/sync wiki source, art localizer, YouTube Music resolver
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`core` has no framework imports. It talks to the outside through the ports in `src/core/ports.ts`.
+
+## Keys
+
+`Q` hold for the wheel, `←` `→` change station, `Space` power, `M` mute.
+
+## Test
+
+```bash
+npm test
+```

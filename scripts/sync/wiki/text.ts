@@ -132,3 +132,10 @@ export const prose = (w: string) =>
     .split("\n")
     .map((l) => l.trim())
     .find((l) => l && !/^(\{\{|\[\[(File|Image):|\*|\||!|=)/i.test(l))
+
+export const parts = (w: string, test: RegExp) => {
+  const marks = [...w.matchAll(/^(=+)\s*(.*?)\s*\1\s*$/gm)]
+  return marks
+    .flatMap((m, i) => (test.test(m[2]) ? [w.slice(m.index + m[0].length, marks[i + 1]?.index ?? w.length)] : []))
+    .join("\n")
+}

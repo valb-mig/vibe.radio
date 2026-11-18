@@ -16,13 +16,21 @@ const exists = (url: URL) =>
     () => false,
   )
 
-const convert = (input: Buffer, args: string[], out: string) =>
+const tools = ["magick", "convert"]
+
+const run = (tool: string, input: Buffer, args: string[], out: string) =>
   new Promise<boolean>((done) => {
-    const p = spawn("magick", ["-", ...args, out])
+    const p = spawn(tool, ["-", ...args, out])
     p.on("error", () => done(false))
     p.on("close", (code) => done(code === 0))
+    p.stdin.on("error", () => {})
     p.stdin.end(input)
   })
+
+const convert = async (input: Buffer, args: string[], out: string) => {
+  for (const tool of tools) if (await run(tool, input, args, out)) return true
+  return false
+}
 
 export const localize = async (slug: string, art: Art, opts: { fresh: boolean; trim: boolean }) => {
   const dir = new URL(`${slug}/`, root)

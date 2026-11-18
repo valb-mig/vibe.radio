@@ -44,7 +44,9 @@ export const meta = (w: string) => {
   const lead = clean(w)
     .split("\n")
     .find((l) => l.startsWith("'''"))
+  const games = [...(field(box, "games") ?? "").matchAll(/\|\s*(\w+)\s*=/g)].map((g) => g[1])
   return {
+    games,
     name: value("name"),
     genre: value("genre"),
     freq: value("frequency"),

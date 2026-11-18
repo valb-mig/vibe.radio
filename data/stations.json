@@ -1,0 +1,1120 @@
+[
+  {
+    "slug": "flash-fm",
+    "name": "Flash FM",
+    "kind": "official",
+    "tint": "#ff3ea5",
+    "genre": "Pop",
+    "hosts": [
+      "Robyn",
+      "Alex Consani"
+    ],
+    "blurb": "The Vice City institution that delivers the best in pop music with Robyn and Alex — guaranteed to make you dance no matter where you find yourself in the Goodtime State.",
+    "art": {
+      "promo": "/art/flash-fm/promo.jpg",
+      "icon": "/art/flash-fm/icon.jpg",
+      "logo": "/art/flash-fm/logo.png"
+    },
+    "source": "https://gta.wiki/w/Flash_FM",
+    "tracks": [
+      {
+        "id": "charli-xcx-good-ones",
+        "title": "Good Ones",
+        "artist": "Charli xcx",
+        "year": 2021,
+        "spotify": "2grSOc6HNTXQQXNoRKt9UM",
+        "video": "dlw-wciKwXY",
+        "secs": 137,
+        "alts": [
+          "tuzW1MWOZWc",
+          "capLXtNpmQE",
+          "reIgoVVdXOg"
+        ]
+      },
+      {
+        "id": "mgmt-electric-feel",
+        "title": "Electric Feel",
+        "artist": "MGMT",
+        "year": 2008,
+        "spotify": "3FtYbEfBqAlGO46NUDQSAt",
+        "video": "r78xfXZb_WU",
+        "secs": 230,
+        "alts": [
+          "QBdcB7UA1Vo",
+          "u2F2d-ObcIE",
+          "MmZexg8sxyk"
+        ]
+      },
+      {
+        "id": "zara-larsson-pinkpantheress-midnight-sun-girls-trip",
+        "title": "Midnight Sun (Girls Trip)",
+        "artist": "Zara Larsson & PinkPantheress",
+        "year": 2025,
+        "spotify": "2FHGYrQEmuWGX24QoQtQ13",
+        "video": "BkGaKI7zwmg",
+        "secs": 172,
+        "alts": [
+          "N1o-jptI974",
+          "BWomo6RVU2M",
+          "Py41Pr24bjY"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "afrobank-fm",
+    "name": "AfroBank FM",
+    "kind": "official",
+    "tint": "#ffb400",
+    "genre": "World",
+    "hosts": [
+      "Burna",
+      "Palmsy"
+    ],
+    "blurb": "Turn up the gbedu with Burna and Palmsy, AfroBank FM's dynamic duo curating the best in African music, from 20th-century classics and undiscovered gems to contemporary sounds like amapiano, 3-step, and more.",
+    "art": {
+      "promo": "/art/afrobank-fm/promo.jpg",
+      "icon": "/art/afrobank-fm/icon.jpg",
+      "logo": "/art/afrobank-fm/logo.png"
+    },
+    "source": "https://gta.wiki/w/AfroBank_FM",
+    "tracks": [
+      {
+        "id": "asake-joha",
+        "title": "Joha",
+        "artist": "Asake",
+        "year": 2022,
+        "spotify": "5UwxpuGHkwiojKDaPC5ZNu",
+        "video": "Dc6Sk-YfEWQ",
+        "secs": 148,
+        "alts": [
+          "fXl5dPuiJa0",
+          "Kvr_XvPddVM",
+          "ahVJa-a97lY"
+        ]
+      },
+      {
+        "id": "pat-thomas-and-ebo-taylor-gye-wani",
+        "title": "Gye Wani",
+        "artist": "Pat Thomas and Ebo Taylor",
+        "year": 1984,
+        "spotify": "3btvwWoGAdEJonpeIP64Vq",
+        "video": "YpwqXB4wNNQ",
+        "secs": 324,
+        "alts": [
+          "0NAdS4Dp_bc",
+          "RuGU8gjY5z0",
+          "iieksJD6iVg"
+        ]
+      },
+      {
+        "id": "dj-lag-robot-boii-and-kamo-mphela-shay-sana",
+        "title": "Shay'sana",
+        "artist": "DJ Lag, Robot Boii and Kamo Mphela",
+        "year": 2024,
+        "spotify": "5RowpzAMP5LGfXRQhBdMFv",
+        "video": "wdY9X_H5KgQ",
+        "secs": 209,
+        "alts": [
+          "pQ_jb9qxxH0",
+          "foSOeYTFZnU",
+          "_GdpBv1uSEA"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cocoteo-fm",
+    "name": "Cocoteo FM",
+    "kind": "official",
+    "tint": "#d68cff",
+    "genre": "Latin",
+    "hosts": [
+      "El Martillo",
+      "La Gata"
+    ],
+    "blurb": "Cocoteo FM is Leonida's home for the best of modern Latin music. Hosted by El Martillo and La Gata and featuring everything from bachata and merengue to dembow and reggaeton — Cocoteo FM is el party que nunca se apaga.",
+    "art": {
+      "promo": "/art/cocoteo-fm/promo.jpg",
+      "icon": "/art/cocoteo-fm/icon.jpg",
+      "logo": "/art/cocoteo-fm/logo.png"
+    },
+    "source": "https://gta.wiki/w/Cocoteo_FM",
+    "tracks": [
+      {
+        "id": "bad-bunny-eoo",
+        "title": "EoO",
+        "artist": "Bad Bunny",
+        "year": 2025,
+        "spotify": "6J5kc12BW5HuP3d7C3vvx8",
+        "video": "JYekRpqL4O8",
+        "secs": 205,
+        "alts": [
+          "myDIeOjqQos",
+          "oKCtO7drNxU",
+          "W-tjws59CUo"
+        ]
+      },
+      {
+        "id": "axel-rulay-farruko-and-el-alfa-si-es-trucho-es-trucho-remix",
+        "title": "Si Es Trucho Es Trucho (Remix)",
+        "artist": "Axel Rulay, Farruko and El Alfa",
+        "year": 2021,
+        "spotify": "79TmKWcU3YfyqkmE34pCRr",
+        "video": "u_ZvaksuHe8",
+        "secs": 214
+      },
+      {
+        "id": "romeo-santos-el-chaval-de-la-bachata-canalla",
+        "title": "Canalla",
+        "artist": "Romeo Santos & El Chaval de la Bachata",
+        "year": 2019,
+        "spotify": "4XEXrp37kZXpQTB2r5vWbS",
+        "video": "aQ9ZDQI4svc",
+        "secs": 226,
+        "alts": [
+          "8zcZC4HVr68",
+          "By0wNDl3990",
+          "ipgMpPX51A4"
+        ]
+      },
+      {
+        "id": "myke-towers-girl",
+        "title": "Girl",
+        "artist": "Myke Towers",
+        "year": 2020,
+        "spotify": "43NqTeL8pgBxKHPMiJKUP5",
+        "video": "K7BvJQe2p54",
+        "secs": 187,
+        "alts": [
+          "5VOP0A491sg",
+          "u_Q_vnW-1G8"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "the-chamber-106-6",
+    "name": "The Chamber 106.6",
+    "kind": "official",
+    "tint": "#ff2a1f",
+    "genre": "Heavy metal",
+    "freq": "106.6",
+    "hosts": [
+      "Kerry King",
+      "Tom Araya"
+    ],
+    "blurb": "Crushing metal has landed in Leonida. Jump in the pit with DJ Kerry and DJ Tom for decades of timeless metal anthems as they channel Leonida’s deep metal roots.",
+    "art": {
+      "promo": "/art/the-chamber-106-6/promo.jpg",
+      "icon": "/art/the-chamber-106-6/icon.jpg",
+      "logo": "/art/the-chamber-106-6/logo.png"
+    },
+    "source": "https://gta.wiki/w/The_Chamber_106.6",
+    "tracks": [
+      {
+        "id": "black-sabbath-i",
+        "title": "I",
+        "artist": "Black Sabbath",
+        "year": 1992,
+        "spotify": "7CAuk3iMezAKo58pvwBGQC",
+        "video": "i7qPf894PP4",
+        "secs": 314,
+        "alts": [
+          "JSf2B28wzzI",
+          "l-lZx0i1DDM",
+          "_R-tSFyy0Gs"
+        ]
+      },
+      {
+        "id": "pantera-i-m-broken",
+        "title": "I'm Broken",
+        "artist": "Pantera",
+        "year": 1994,
+        "spotify": "2M5WTwqnkyz7bW6P1CiD6q",
+        "video": "DBOfabotqP8",
+        "secs": 265,
+        "alts": [
+          "B1czQ56luiU",
+          "aYErFMmDBb8",
+          "2-V8kYT1pvE"
+        ]
+      },
+      {
+        "id": "slayer-raining-blood",
+        "title": "Raining Blood",
+        "artist": "Slayer",
+        "year": 1986,
+        "spotify": "4fiOTntQKr24p07FvQDHZE",
+        "video": "Gy3BOmvLf2w",
+        "secs": 256
+      }
+    ]
+  },
+  {
+    "slug": "dirty-south-classics",
+    "name": "Dirty South Classics",
+    "kind": "official",
+    "tint": "#e0b84f",
+    "genre": "Hip hop",
+    "hosts": [
+      "Trick",
+      "Trina"
+    ],
+    "blurb": "A little southern hospitality from Trick and Trina, blasting regional rap and hip-hop classics. From the beach to the block, nobody reps Leonida and the South like they do.",
+    "art": {
+      "promo": "/art/dirty-south-classics/promo.jpg",
+      "icon": "/art/dirty-south-classics/icon.jpg",
+      "logo": "/art/dirty-south-classics/logo.png"
+    },
+    "source": "https://gta.wiki/w/Dirty_South_Classics",
+    "tracks": [
+      {
+        "id": "david-banner-lil-flip-like-a-pimp",
+        "title": "Like a Pimp",
+        "artist": "David Banner & Lil Flip",
+        "year": 2003,
+        "spotify": "0DW5anNzTO7h0OlKqFsVQ6",
+        "video": "xgxRrFUgeDY",
+        "secs": 255,
+        "alts": [
+          "MKGQ5cIw_ew",
+          "vhUETP4KEp0"
+        ]
+      },
+      {
+        "id": "jt-money-sole-who-dat",
+        "title": "Who Dat",
+        "artist": "JT Money & Solé",
+        "year": 1999,
+        "spotify": "0kkt9ym5Es2TpqTznJ7xjr",
+        "video": "Ey2rqJ-Og8w",
+        "secs": 232,
+        "alts": [
+          "ujYHMbqz1_0",
+          "-Wr5KA5fMWo",
+          "VG4rIy4AcUc"
+        ]
+      },
+      {
+        "id": "dj-khaled-trick-daddy-rick-ross-pitbull-born-n-raised",
+        "title": "Born N Raised",
+        "artist": "DJ Khaled, Trick Daddy, Rick Ross & Pitbull",
+        "year": 2006,
+        "spotify": "6a2BUt5sTWx7E8Y8Ce3GNp",
+        "video": "7lOthFpn9os",
+        "secs": 257,
+        "alts": [
+          "LyGwpq44GC8",
+          "XCGAOuU6vAM"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "back-country-radio",
+    "name": "Back Country Radio",
+    "kind": "official",
+    "tint": "#d9a46a",
+    "genre": "Country",
+    "hosts": [
+      "MW",
+      "Delta Dawne"
+    ],
+    "blurb": "MW and Delta Dawne blast renegade country music to the Grassrivers, Port Gellhorn, and beyond. Stay tuned for Back Country’s roving reporter, swamp meteorologist, and Delta’s not-so-secret lover Mud Dog Mike checking in from the driver's seat of his Grassrivers airboat.",
+    "art": {
+      "promo": "/art/back-country-radio/promo.jpg",
+      "icon": "/art/back-country-radio/icon.jpg",
+      "logo": "/art/back-country-radio/logo.png"
+    },
+    "source": "https://gta.wiki/w/Back_Country_Radio",
+    "tracks": [
+      {
+        "id": "david-allan-coe-need-a-little-time-off-for-bad-behavior",
+        "title": "Need a Little Time Off for Bad Behavior",
+        "artist": "David Allan Coe",
+        "year": 1987,
+        "spotify": "2XuG6qXo9WZHn9O2QUxeTM",
+        "video": "PrqALXdmqJU",
+        "secs": 181,
+        "alts": [
+          "NBLVocr_RnM",
+          "44Sgl8a41EA"
+        ]
+      },
+      {
+        "id": "loretta-lynn-don-t-come-home-a-drinkin-with-lovin-on-your-mind",
+        "title": "Don't Come Home A-Drinkin' (With Lovin' On Your Mind)",
+        "artist": "Loretta Lynn",
+        "year": 1966,
+        "spotify": "1Ch2cPleHoVVXLVRRrGF6o",
+        "video": "Y40H3OoY3Io",
+        "secs": 130,
+        "alts": [
+          "Z8vSVzzNTXc",
+          "ctLB3JmdURQ"
+        ]
+      },
+      {
+        "id": "hank-williams-jr-waylon-jennings-the-conversation",
+        "title": "The Conversation",
+        "artist": "Hank Williams, Jr. & Waylon Jennings",
+        "year": 1979,
+        "spotify": "4uaoeyvT7JnLGA729TKl5n",
+        "video": "v87acwCXy4c",
+        "secs": 232,
+        "alts": [
+          "cwOGtP2yv1E",
+          "csONW-zWFqs"
+        ]
+      },
+      {
+        "id": "glen-campbell-rhinestone-cowboy",
+        "title": "Rhinestone Cowboy",
+        "artist": "Glen Campbell",
+        "year": 1975,
+        "spotify": "0VwTeYNjcl30DyQlt3GPe0",
+        "video": "P-KrwFTqgFI",
+        "secs": 196,
+        "alts": [
+          "qkAXWbdKVuo",
+          "x_4omYCZndY",
+          "W2ox2TKYZHc"
+        ]
+      },
+      {
+        "id": "george-strait-the-fireman",
+        "title": "The Fireman",
+        "artist": "George Strait",
+        "year": 1985,
+        "spotify": "5CwZU4BVFX0dyqG1gKfHHr",
+        "video": "b6ZnjrvRu6Y",
+        "secs": 155,
+        "alts": [
+          "Bf2RH1GBv_g",
+          "NvOzr47CcaU",
+          "APP6uZ4Vxgs"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "v-rock",
+    "name": "V-Rock",
+    "kind": "leaked",
+    "tint": "#a855f7",
+    "genre": "Rock",
+    "hosts": [],
+    "blurb": "V-Rock is a rock radio station based in Vice City.",
+    "art": {},
+    "source": "https://gta.wiki/w/V-Rock",
+    "tracks": [
+      {
+        "id": "stevie-nicks-for-what-it-s-worth",
+        "title": "For What It's Worth",
+        "artist": "Stevie Nicks",
+        "year": 2022,
+        "spotify": "2g8wtRZW1MVUpF6DF5yHJv",
+        "video": "eIuPt80JHCw",
+        "secs": 293,
+        "alts": [
+          "MWkZBQivP74",
+          "pwQhSg1G2OQ"
+        ]
+      },
+      {
+        "id": "lindsey-buckingham-go-insane",
+        "title": "Go Insane",
+        "artist": "Lindsey Buckingham",
+        "year": 1984,
+        "spotify": "143sH2crBs4fUQyRr8pjUm",
+        "video": "usz4eji8cDM",
+        "secs": 186
+      }
+    ]
+  },
+  {
+    "slug": "emotion-98-3",
+    "name": "Emotion 98.3",
+    "kind": "leaked",
+    "tint": "#fb7185",
+    "genre": "Soft rock",
+    "hosts": [],
+    "blurb": "Emotion 98.3 is a soft rock radio station returning from the 3D Universe.",
+    "art": {},
+    "source": "https://gta.wiki/w/Emotion_98.3",
+    "tracks": [
+      {
+        "id": "cliff-richard-devil-woman",
+        "title": "Devil Woman",
+        "artist": "Cliff Richard",
+        "year": 1976,
+        "spotify": "29YcYtqUNLWaYvGVGdYtZy",
+        "video": "NG9Gddy8r_8",
+        "secs": 218,
+        "alts": [
+          "CQ9s3nDqSRw",
+          "AT-1HggA37Y",
+          "IgomTOOgl8M"
+        ]
+      },
+      {
+        "id": "the-cars-drive",
+        "title": "Drive",
+        "artist": "The Cars",
+        "year": 1976,
+        "spotify": "3wfujdbamR3Z46F4xav7LM",
+        "video": "afnOOEvAtt4",
+        "secs": 235,
+        "alts": [
+          "cAxA-okbK_Q",
+          "xuZA6qiJVfU"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "kaleidoscope-fm",
+    "name": "Kaleidoscope FM",
+    "kind": "leaked",
+    "tint": "#22d3ee",
+    "genre": "Dance",
+    "hosts": [],
+    "blurb": "Kaleidoscope FM is a dance radio station returning from the 2D Universe.",
+    "art": {},
+    "source": "https://gta.wiki/w/Kaleidoscope_FM",
+    "tracks": [
+      {
+        "id": "marianne-rosenberg-herz-aus-glas",
+        "title": "Herz aus Glas",
+        "artist": "Marianne Rosenberg",
+        "year": 1979,
+        "spotify": "0iBTM6KRZNzdBnovf5MnHP",
+        "video": "2omxM7NMv0M",
+        "secs": 265,
+        "alts": [
+          "ElRHtkOHIzc",
+          "X_ISLPlQJfc",
+          "oPX29zq7p2I"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "la-ola",
+    "name": "La Ola",
+    "kind": "leaked",
+    "tint": "#fb923c",
+    "genre": "Latin",
+    "hosts": [],
+    "blurb": "La Ola is a Latin radio station.",
+    "art": {},
+    "source": "https://gta.wiki/w/La_Ola",
+    "tracks": [
+      {
+        "id": "orquesta-harlow-la-cartera",
+        "title": "La Cartera",
+        "artist": "Orquesta Harlow",
+        "year": 1974,
+        "spotify": "1mpKcP8f2gQrInkh2FLb1N",
+        "video": "cqeqcvjeaqE",
+        "secs": 387,
+        "alts": [
+          "nKHdOfJE6uc"
+        ]
+      },
+      {
+        "id": "nolen-crossley-salsa-boogie",
+        "title": "Salsa Boogie",
+        "artist": "Nolen & Crossley",
+        "year": 1982,
+        "spotify": "009Y47fidu3ZsvYKCATe7R",
+        "video": "3RRLIWT5Rx0",
+        "secs": 240,
+        "alts": [
+          "SdD76lJ0bzY",
+          "HaIK66ImqoQ",
+          "UN_L3O4w3JM"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "radio-on-u",
+    "name": "Radio On-U",
+    "kind": "leaked",
+    "tint": "#4ade80",
+    "genre": "Reggae",
+    "hosts": [],
+    "blurb": "Radio On-U is a reggae radio station.",
+    "art": {},
+    "source": "https://gta.wiki/w/Radio_On-U",
+    "tracks": [
+      {
+        "id": "horace-andy-skylarking",
+        "title": "Skylarking",
+        "artist": "Horace Andy",
+        "year": 1971,
+        "spotify": "5gWfOtADwI4dezyV5mw9SP",
+        "video": "JPKYx8iB_O8",
+        "secs": 170,
+        "alts": [
+          "Ez9pNArgsGk",
+          "G6m_t5KaIsw",
+          "RCHTAu4In70"
+        ]
+      },
+      {
+        "id": "the-upsetters-black-panta",
+        "title": "Black Panta",
+        "artist": "The Upsetters",
+        "year": 1973,
+        "spotify": "6VFDjkFPpdraFPiCBTTBS5",
+        "video": "de5J2az4V1A",
+        "secs": 273,
+        "alts": [
+          "Cd4ZPoxXjBk"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "stockyard-fm",
+    "name": "Stockyard FM",
+    "kind": "leaked",
+    "tint": "#38bdf8",
+    "genre": "Pop",
+    "hosts": [],
+    "blurb": "Stockyard FM is a pop radio station based in Stockyard.",
+    "art": {},
+    "source": "https://gta.wiki/w/Stockyard_FM",
+    "tracks": [
+      {
+        "id": "roisin-murphy-overpowered",
+        "title": "Overpowered",
+        "artist": "Róisín Murphy",
+        "year": 2007,
+        "spotify": "7di4QTqNCZjX4JUFKhWQsr",
+        "video": "-YSAGRIEhGQ",
+        "secs": 309,
+        "alts": [
+          "JmjmugUFQso"
+        ]
+      },
+      {
+        "id": "tommy-richman-million-dollar-baby",
+        "title": "Million Dollar Baby",
+        "artist": "Tommy Richman",
+        "year": 2024,
+        "spotify": "5AJ9hqTS2wcFQCELCFRO7A",
+        "video": "LF2LGaCsMbc",
+        "secs": 156,
+        "alts": [
+          "zG5YzRxOcsI",
+          "Yau_m3O5g5w",
+          "CF92xBXPyDM"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "symphony-fm",
+    "name": "Symphony FM",
+    "kind": "leaked",
+    "tint": "#e2e8f0",
+    "genre": "Classical",
+    "hosts": [],
+    "blurb": "Symphony FM is a classical radio station",
+    "art": {},
+    "source": "https://gta.wiki/w/Symphony_FM",
+    "tracks": [
+      {
+        "id": "jean-sibelius-symphony-no-5-iii-allegro-molto",
+        "title": "Symphony No. 5 III. Allegro Molto",
+        "artist": "Jean Sibelius",
+        "year": 1914,
+        "spotify": "5jeCm6AX0v8vgF9HckN1pE",
+        "video": "TJO9YtVayss",
+        "secs": 538,
+        "alts": [
+          "Fba6SiXA7y4"
+        ]
+      },
+      {
+        "id": "gustav-mahler-symphony-no-6-allegro-energico",
+        "title": "Symphony No. 6 Allegro Energico",
+        "artist": "Gustav Mahler",
+        "year": 1904,
+        "spotify": "5p2tIiMOK7KSxMfmAQAPR9",
+        "video": "BFZnv27c5qs",
+        "secs": 1071
+      }
+    ]
+  },
+  {
+    "slug": "worldwide-fm",
+    "name": "WorldWide FM",
+    "kind": "leaked",
+    "tint": "#fde047",
+    "genre": "World",
+    "hosts": [],
+    "blurb": "Spotted on the radio wheel in the August 2026 leaks.",
+    "art": {},
+    "source": "https://gta.wiki/w/WorldWide_FM",
+    "tracks": [
+      {
+        "id": "garfield-fleming-don-t-send-me-away",
+        "title": "Don't Send Me Away",
+        "artist": "Garfield Fleming",
+        "year": 1981,
+        "spotify": "1VQ4vNasNIrgOKjVpb1aVM",
+        "video": "Pm6aWCMkLB0",
+        "secs": 326,
+        "alts": [
+          "yzDXIrf_vGo",
+          "fR00HjCx03c",
+          "sTa1B7v5Esw"
+        ]
+      },
+      {
+        "id": "jamiroquai-smile",
+        "title": "Smile",
+        "artist": "Jamiroquai",
+        "year": 2011,
+        "video": "HS_mmz1W8RY",
+        "secs": 317,
+        "alts": [
+          "nbs07Ac2_4Y",
+          "Ac2-OpFffcM",
+          "Wihi-H1Rivs"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "the-album",
+    "name": "The Album",
+    "kind": "album",
+    "tint": "#ff6a3d",
+    "genre": "Soundtrack",
+    "hosts": [],
+    "blurb": "The official soundtrack album: original songs made for the game, from Travis Scott and Cardi B to Justice and Tove Lo.",
+    "art": {
+      "promo": "/art/the-album/promo.jpg",
+      "icon": "/art/the-album/icon.jpg"
+    },
+    "source": "https://gta.wiki/w/Grand_Theft_Auto_VI%3A_The_Album",
+    "tracks": [
+      {
+        "id": "yung-lean-feat-future-metro-boomin-that-s-it",
+        "title": "That's It",
+        "artist": "Yung Lean feat. Future & Metro Boomin",
+        "spotify": "45TB2WNxWu2X4MmqmCAJnF",
+        "video": "K4JLI9zaRSY",
+        "secs": 162,
+        "alts": [
+          "joMjcNtxuTU",
+          "25hpWlZQEks",
+          "hRzbrXQzahw"
+        ]
+      },
+      {
+        "id": "travis-scott-rhyno",
+        "title": "RHYNO",
+        "artist": "Travis Scott",
+        "spotify": "2QrLrUqdSg5njDVEqq5QFp",
+        "video": "7yJEkQmXVNM",
+        "secs": 180,
+        "alts": [
+          "3Ev1PQEm7ns",
+          "LnQH5piWJWE",
+          "CLPBbCvob0E"
+        ]
+      },
+      {
+        "id": "ca7riel-paco-amoroso-pinkpantheress-fred-again-etienne-de-crecy-sexy-magic",
+        "title": "Sexy Magic",
+        "artist": "CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. & Étienne de Crécy",
+        "spotify": "62hqNk13CuFLOpCw1cPMAF",
+        "video": "VBKnzlBP95A",
+        "secs": 196,
+        "alts": [
+          "G59iOfClrVo",
+          "yiA0hQafd_4",
+          "HqlWitk2N8k"
+        ]
+      },
+      {
+        "id": "justice-feat-tame-impala-sza-and-king-gizzard-the-lizard-wizard-flower-in-a-hurricane",
+        "title": "Flower In A Hurricane",
+        "artist": "Justice feat. Tame Impala, SZA, and King Gizzard & the Lizard Wizard",
+        "spotify": "4HCOHRCSQelz2GPX8iTamO",
+        "video": "JWxoRY7AFSw",
+        "secs": 225,
+        "alts": [
+          "5dPwBWvmcbQ",
+          "NNUHr1Y9-i8",
+          "eawsp4GSC7g"
+        ]
+      },
+      {
+        "id": "morgan-wallen-last-thing-you-need",
+        "title": "Last Thing You Need",
+        "artist": "Morgan Wallen",
+        "spotify": "5qGziX9216V8hKJjGg8RtH",
+        "video": "v7yYmRGQaRk",
+        "secs": 196,
+        "alts": [
+          "9leAwpph-xs",
+          "jLhmoqKr4AM",
+          "LRh6LcjzyoI"
+        ]
+      },
+      {
+        "id": "fuerza-regida-suzuki",
+        "title": "Suzuki",
+        "artist": "Fuerza Regida",
+        "spotify": "6VDw2mGBIa4csypjOhS6JT",
+        "video": "ENXLhu3UYto",
+        "secs": 112,
+        "alts": [
+          "69tHtVtQJbo",
+          "wROPn_SFE5s",
+          "mjC1QrkBlbY"
+        ]
+      },
+      {
+        "id": "rauw-alejandro-macacoa-2000",
+        "title": "Macacoa 2000",
+        "artist": "Rauw Alejandro",
+        "spotify": "7GtO6G2Iue3yfIYhx36JZn",
+        "video": "DShU-ly9BdM",
+        "secs": 174,
+        "alts": [
+          "76R2Q9vObqI",
+          "oJrOIrTCugg",
+          "ZdR_ZCU3b3U"
+        ]
+      },
+      {
+        "id": "cardi-b-don-t-chart",
+        "title": "Don't Chart",
+        "artist": "Cardi B",
+        "spotify": "4NaBitL0J4PBSODIL1sUg7",
+        "video": "laju6Wby_38",
+        "secs": 165,
+        "alts": [
+          "0BxQ6hi3lXY",
+          "cbyGSj2MJvk",
+          "qvjhlpw2-Wc"
+        ]
+      },
+      {
+        "id": "tove-lo-blood-in-your-eyes",
+        "title": "Blood In Your Eyes",
+        "artist": "Tove Lo",
+        "spotify": "4h3tY2zV4easaHEAbHVmgj",
+        "video": "0lI_KzhfIBk",
+        "secs": 162,
+        "alts": [
+          "UqdOZmMQfSk",
+          "9yRwv2H_VIo",
+          "iKj7RRUizck"
+        ]
+      },
+      {
+        "id": "keith-richards-bright-lights-big-city",
+        "title": "Bright Lights, Big City",
+        "artist": "Keith Richards",
+        "spotify": "2X67K1KTLBg9EU2dMUQC42",
+        "video": "ULhiufAtduE",
+        "secs": 211,
+        "alts": [
+          "e2z4tuS4Mbo",
+          "rj3DdOYJ42M",
+          "22YgIFt5MBs"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "trailer-mix",
+    "name": "Trailer Mix",
+    "kind": "trailer",
+    "tint": "#2dd4bf",
+    "genre": "Various",
+    "hosts": [],
+    "blurb": "Every song from the trailers and An Extended Look, back to back.",
+    "art": {
+      "promo": "/art/trailer-mix/promo.jpg",
+      "icon": "/art/trailer-mix/icon.jpg"
+    },
+    "source": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+    "tracks": [
+      {
+        "id": "tom-petty-love-is-a-long-road",
+        "title": "Love Is a Long Road",
+        "artist": "Tom Petty",
+        "year": 1989,
+        "video": "2AilA-M6N5U",
+        "secs": 248,
+        "alts": [
+          "xAgUYyosqVM",
+          "Ub4WpSYoBlk",
+          "SFHXG7HhHRM"
+        ]
+      },
+      {
+        "id": "jay-ferguson-thunder-island",
+        "title": "Thunder Island",
+        "artist": "Jay Ferguson",
+        "year": 1977,
+        "video": "EI0Tt3UZ5jc",
+        "secs": 241,
+        "alts": [
+          "kBV1YRh1_kg",
+          "-uEMAzsCcIM"
+        ]
+      },
+      {
+        "id": "zenglen-child-support",
+        "title": "Child Support",
+        "artist": "Zenglen",
+        "year": 2004,
+        "video": "N8FJhdqXrJM",
+        "secs": 304,
+        "alts": [
+          "fYpAT9092Vw",
+          "dHvFEIIbsP4",
+          "_uHjJLakl0Y"
+        ]
+      },
+      {
+        "id": "wang-chung-everybody-have-fun-tonight",
+        "title": "Everybody Have Fun Tonight",
+        "artist": "Wang Chung",
+        "year": 1986,
+        "video": "5c3g7a85400",
+        "secs": 288,
+        "alts": [
+          "uZttcArNs0g",
+          "2vbm_CU2-KQ",
+          "86lpZeDiTiA"
+        ]
+      },
+      {
+        "id": "tammy-wynette-talkin-to-myself-again",
+        "title": "Talkin' to Myself Again",
+        "artist": "Tammy Wynette",
+        "year": 1987,
+        "video": "QG52v7AOVVU",
+        "secs": 206,
+        "alts": [
+          "iO5nDb3Lq8c",
+          "z1I8Xsxlp4E",
+          "ItCPdsOz-oA"
+        ]
+      },
+      {
+        "id": "the-pointer-sisters-hot-together",
+        "title": "Hot Together",
+        "artist": "The Pointer Sisters",
+        "year": 1986,
+        "video": "-NnMl7NUmS8",
+        "secs": 254,
+        "alts": [
+          "H3Aay-47ZT0",
+          "hH2gvfKZbL0",
+          "9Z2XCAcsut8"
+        ]
+      },
+      {
+        "id": "birdman-feat-lil-wayne-pop-bottles",
+        "title": "Pop Bottles",
+        "artist": "Birdman feat. Lil Wayne",
+        "year": 2007,
+        "video": "JT9SxUBBtEE",
+        "secs": 206,
+        "alts": [
+          "aXSi7qUBRJw",
+          "ivpHTJRV6io"
+        ]
+      },
+      {
+        "id": "sexyy-redd-tay-keith-pound-town",
+        "title": "Pound Town",
+        "artist": "Sexyy Redd & Tay Keith",
+        "year": 2023,
+        "video": "mhVu25y3GNA",
+        "secs": 130,
+        "alts": [
+          "W4miiM7p4ac"
+        ]
+      },
+      {
+        "id": "kodak-black-skrilla",
+        "title": "Skrilla",
+        "artist": "Kodak Black",
+        "year": 2015,
+        "video": "fYnsLvfrKyU",
+        "secs": 217,
+        "alts": [
+          "bSJV1pIzoxg",
+          "XqPFvd0nki4"
+        ]
+      },
+      {
+        "id": "the-bellamy-brothers-let-your-love-flow",
+        "title": "Let Your Love Flow",
+        "artist": "The Bellamy Brothers",
+        "year": 1976,
+        "video": "LzXz6-RXXgc",
+        "secs": 197,
+        "alts": [
+          "O7rjq7YSzNE",
+          "j-SSsB4yOZc",
+          "Gft_kG9cfJg"
+        ]
+      },
+      {
+        "id": "def-leppard-love-bites",
+        "title": "Love Bites",
+        "artist": "Def Leppard",
+        "year": 1987,
+        "video": "pxRHH5X0nIc",
+        "secs": 347,
+        "alts": [
+          "im70eF8x14U",
+          "qGN6GYqnXB8"
+        ]
+      },
+      {
+        "id": "depeche-mode-people-are-people",
+        "title": "People Are People",
+        "artist": "Depeche Mode",
+        "year": 1984,
+        "video": "i_friC7j588",
+        "secs": 232,
+        "alts": [
+          "aB-jikt46NA"
+        ]
+      },
+      {
+        "id": "captain-tennille-but-i-think-it-s-a-dream",
+        "title": "But I Think It's a Dream",
+        "artist": "Captain & Tennille",
+        "year": 1980,
+        "video": "2KLlvQuVNfU",
+        "secs": 254,
+        "alts": [
+          "CSglRHZL0Hg",
+          "GpKBSO09oC0",
+          "hZJp0sgL5dQ"
+        ]
+      },
+      {
+        "id": "prefab-sprout-cars-and-girls",
+        "title": "Cars and Girls",
+        "artist": "Prefab Sprout",
+        "year": 1988,
+        "video": "v5jeYFjfVR0",
+        "secs": 266,
+        "alts": [
+          "fGjVkPprLuU",
+          "AkhPgcEcDKQ",
+          "jEJdfDD4dVg"
+        ]
+      },
+      {
+        "id": "feat-meah-pace-off-the-grid",
+        "title": "Off The Grid",
+        "artist": "!!! feat. Meah Pace",
+        "year": 2019,
+        "video": "gTR8tTbzjMc",
+        "secs": 229,
+        "alts": [
+          "K4QAix5QnCI",
+          "QOqlTKP9T1s",
+          "YhcUWwEtg_U"
+        ]
+      },
+      {
+        "id": "cliff-richard-devil-woman",
+        "title": "Devil Woman",
+        "artist": "Cliff Richard",
+        "year": 1976,
+        "video": "NG9Gddy8r_8",
+        "secs": 218,
+        "alts": [
+          "CQ9s3nDqSRw",
+          "AT-1HggA37Y",
+          "IgomTOOgl8M"
+        ]
+      },
+      {
+        "id": "chimbala-omega-se-me-nota-agarrame",
+        "title": "Se Me Nota (Agarrame)",
+        "artist": "Chimbala & Omega",
+        "year": 2021,
+        "video": "-uj9b1qcf0Y",
+        "secs": 177,
+        "alts": [
+          "yxlE4alDecE",
+          "rLmNq2RE4IM"
+        ]
+      },
+      {
+        "id": "phil-collins-against-all-odds-take-a-look-at-me-now",
+        "title": "Against All Odds (Take a Look at Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984,
+        "video": "wuvtoyVi7vY",
+        "secs": 211,
+        "alts": [
+          "PhTcWEx3n7A",
+          "TU3aUid1UnM",
+          "uVs5OjHBx3M"
+        ]
+      },
+      {
+        "id": "aluna-jayda-g-mine-o-mine",
+        "title": "Mine O' Mine",
+        "artist": "Aluna & Jayda G",
+        "year": 2023,
+        "video": "HeBmB5l_4so",
+        "secs": 194,
+        "alts": [
+          "qBMePC_Xndk",
+          "Kr00dNcWN64",
+          "4M6O4dPvsRE"
+        ]
+      },
+      {
+        "id": "celia-cruz-justo-betancourt-johnny-pacheco-papo-lucca-besito-de-coco",
+        "title": "Besito De Coco",
+        "artist": "Celia Cruz, Justo Betancourt, Johnny Pacheco, & Papo Lucca",
+        "year": 1976,
+        "video": "u9Xp2Pviq3A",
+        "secs": 268,
+        "alts": [
+          "9eQX5P-MiqM",
+          "CjIP8m-9owY",
+          "DZYwxzDYPJI"
+        ]
+      },
+      {
+        "id": "elderbrook-bob-moses-inner-light",
+        "title": "Inner Light",
+        "artist": "Elderbrook & Bob Moses",
+        "year": 2021,
+        "video": "hJDBRYCDKo4",
+        "secs": 258,
+        "alts": [
+          "4DPCHufDWJQ",
+          "OOEtlj9luPM",
+          "VKgTvHHQ21I"
+        ]
+      }
+    ]
+  }
+]

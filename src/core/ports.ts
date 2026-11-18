@@ -9,7 +9,7 @@ export interface Player {
   seek(secs: number): void
   time(): number
   volume(level: number): void
-  on(signal: Signal, fn: () => void): void
+  on(signal: Signal, fn: (code?: number) => void): void
 }
 
 export interface Fx {

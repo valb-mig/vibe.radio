@@ -8,7 +8,7 @@ class Fake implements Player {
   loads: [string, number][] = []
   stops = 0
   level = 0
-  subs = new Map<Signal, () => void>()
+  subs = new Map<Signal, (code?: number) => void>()
   load(video: string, from: number) {
     this.loads.push([video, from])
   }
@@ -22,11 +22,11 @@ class Fake implements Player {
   volume(level: number) {
     this.level = level
   }
-  on(signal: Signal, fn: () => void) {
+  on(signal: Signal, fn: (code?: number) => void) {
     this.subs.set(signal, fn)
   }
-  emit(signal: Signal) {
-    this.subs.get(signal)?.()
+  emit(signal: Signal, code?: number) {
+    this.subs.get(signal)?.(code)
   }
 }
 
@@ -86,9 +86,10 @@ test("embed error falls back to alternate video, then to another track", () => {
 test("station with every video blocked reports a fault", () => {
   const { p, r } = setup()
   r.tune("b")
-  p.emit("error")
+  p.emit("error", 150)
   assert.equal(r.state.on, false)
   assert.equal(r.state.fault, "blocked")
+  assert.equal(r.state.code, 150)
 })
 
 test("toggle and step move through the dial", () => {
@@ -102,6 +103,16 @@ test("toggle and step move through the dial", () => {
   r.toggle()
   assert.equal(r.state.on, false)
   assert.ok(p.stops > 0)
+})
+
+test("live flips once the player starts", () => {
+  const { p, r } = setup()
+  r.tune("a")
+  assert.equal(r.state.live, false)
+  p.emit("play")
+  assert.equal(r.state.live, true)
+  r.step(1)
+  assert.equal(r.state.live, false)
 })
 
 test("mute keeps level", () => {

@@ -8,6 +8,9 @@ export type State = {
   slot?: Slot
   video?: string
   on: boolean
+  live: boolean
+  since?: number
+  code?: number
   level: number
   muted: boolean
   fault?: "blocked"
@@ -30,9 +33,9 @@ export class Radio {
     this.#player = player
     this.#fx = fx
     this.#now = now
-    this.#state = { level: 80, muted: false, ...init, on: false, slot: undefined, video: undefined, fault: undefined }
+    this.#state = { level: 80, muted: false, ...init, on: false, live: false, slot: undefined, video: undefined }
     player.on("end", () => this.#advance())
-    player.on("error", () => this.#skip())
+    player.on("error", (code) => this.#skip(code))
     player.on("play", () => this.#sync())
     this.#apply()
   }
@@ -59,6 +62,7 @@ export class Radio {
     if (!s) return
     this.#dead.clear()
     this.#bad.clear()
+    this.#set({ code: undefined })
     this.#fx.tune(this.#state.muted ? 0 : this.#state.level)
     this.#play(slug, at(s, this.#now(), this.#bad))
   }
@@ -66,7 +70,7 @@ export class Radio {
   toggle() {
     if (this.#state.on) {
       this.#player.stop()
-      this.#set({ on: false })
+      this.#set({ on: false, live: false })
       return
     }
     const slug = this.#state.slug ?? this.#catalog.all()[0]?.slug
@@ -96,9 +100,17 @@ export class Radio {
       return
     }
     const blocked = !slot && this.#bad.size > 0
-    this.#set({ slug, slot, video, on: Boolean(slot), fault: blocked ? "blocked" : undefined })
+    this.#set({
+      slug,
+      slot,
+      video,
+      on: Boolean(slot),
+      live: false,
+      since: this.#now(),
+      fault: blocked ? "blocked" : undefined,
+    })
     if (slot && video) this.#player.load(video, offset(slot, this.#now()))
-    else this.#player.stop()
+    else if (!blocked) this.#player.stop()
   }
 
   #source(slot: Slot) {
@@ -111,17 +123,19 @@ export class Radio {
     this.#play(s.slug, next(s, this.#now(), this.#bad))
   }
 
-  #skip() {
+  #skip(code?: number) {
     const s = this.station
     const { slot, video, on } = this.#state
     if (!s || !slot || !video || !on) return
     this.#dead.add(video)
+    this.#set({ code })
     this.#play(s.slug, at(s, this.#now(), this.#bad))
   }
 
   #sync() {
     const slot = this.#state.slot
     if (!slot || !this.#state.on) return
+    if (!this.#state.live) this.#set({ live: true })
     const want = offset(slot, this.#now())
     if (want * 1000 >= slot.end - slot.start) return this.#advance()
     if (Math.abs(this.#player.time() - want) > drift) this.#player.seek(want)
